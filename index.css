@@ -1,0 +1,102 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+nav {
+	background-color: gray;
+	color: white;
+}
+
+nav ul {
+	display: flex;
+	flex-flow: row;
+	margin: 0;
+	padding: 6px;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+nav ul li a {
+	display: block;
+	border-radius: 4px;
+	padding: 12px 24px;
+	color: white;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	background-color: lightseagreen;
+}
+
+main{
+	margin-bottom: 3%;
+}
+
+footer {
+  margin-top: auto;
+  background-color: gray;
+}
+
+footer p {
+    color: white;
+    margin:0;
+    text-align: center;
+}
+
+#top-img{
+	width: 100%;
+}
+
+p, h2{
+	text-align: center;
+}
+
+.news-list{
+	border: 1px black solid;
+	background-color: lightblue;
+	text-align: center;
+}
+
+.news-list ul li{
+	list-style: none;
+	padding: 1%;
+	border-top: 1px black solid;
+}
+
+table , td, th {
+    border: 1px solid #595959;
+    border-collapse: collapse;
+}
+  
+td ,th {
+    padding: 5px;
+}
+
+#table-block{
+	text-align: center;
+}
+
+#table-block table{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.contents-box{
+	border: 1px black solid;
+	color: black;
+}
+
+a{
+	text-decoration: none;
+}
+
+form{
+	text-align: center;
+}
+
+hr{
+	margin-top: 4%;
+	margin-bottom: 4%;
+}
